@@ -1,0 +1,10 @@
+[
+  {
+    "outputFile": "site.css",
+    "inputFile": "site.less",
+    "options": {
+      "relativeUrls": false
+    }
+  }
+]
+

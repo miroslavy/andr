@@ -1,0 +1,115 @@
+﻿body {
+    background-color: #f5f6f7;
+}
+
+nav.navbar-top {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: #d40114;
+    z-index: 9999;
+    display: table;
+    width: 100%;
+}
+
+.top-nav-container {
+    display: table-row
+}
+.top-nav-item {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+    .top-nav-item.top-nav-title {
+        width: auto;
+        color: #fff;
+        font-size: 16px;
+    }
+
+nav.navbar-main {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    z-index: 9999;
+    display: block;
+    -webkit-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.2);
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+nav.navbar-main ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: table-row;
+}
+nav.navbar-main ul li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 64px;
+}
+nav.navbar-main ul li i {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+nav.navbar-main ul li span {
+    font-size: 11px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+nav.navbar-main ul li.active {
+    border-bottom: 3px solid #d4011d;    
+}
+nav.navbar-main ul li.active i {
+    color: #d4011d;
+}
+nav.navbar-main ul li.active span {
+    margin-bottom: -3px;
+    font-weight: bold;
+}
+
+nav.navbar-action {
+    position: fixed;
+    bottom: 84px;
+    right: 20px;
+}
+    nav.navbar-action .action-button {
+        background-color: #d40114;
+        border-radius: 100px 100px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 30px;
+        color: #fff;
+        border: none;
+        text-align: center;
+        -webkit-box-shadow: 4px 5px 20px 2px rgba(212,1,29,0.2);
+           -moz-box-shadow: 4px 5px 20px 2px rgba(212,1,29,0.2);
+                box-shadow: 4px 5px 20px 2px rgba(212,1,29,0.2);
+    }
+
+
+
+
+.body-content {
+    margin: 90px 10px 160px 10px;
+}
+
+h3 {
+    font-size: 18px !important;
+    color: #d4011d !important;
+}
